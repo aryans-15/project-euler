@@ -1,5 +1,3 @@
-import math
-
 ub, c = 2000000, 0
 A, ub2 = [True] * ub, int(ub ** 0.5) + 1
 
