@@ -1,4 +1,4 @@
-with open('../files/p67.txt') as f:
+with open('../../files/p67.txt') as f:
     S = [[int(x) for x in line.strip().split()] for line in f if line.strip()]
 
 N = len(S)

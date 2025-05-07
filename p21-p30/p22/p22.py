@@ -1,4 +1,4 @@
-with open('../files/p22.txt') as f:
+with open('../../files/p22.txt') as f:
     S = sorted(f.read().replace('"', '').split(","))
 
 N, a = len(S), 0
