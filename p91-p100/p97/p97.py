@@ -1,3 +1,1 @@
-import sys
-
 print((28433 * pow(2, 7830457) + 1) % pow(10, 10))
