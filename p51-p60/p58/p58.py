@@ -1,4 +1,6 @@
 def P(n):
+    if n < 2:
+        return False
     ub = int(n**0.5) + 1
     for i in range(2, ub):
         if n % i == 0:
