@@ -10,7 +10,7 @@ def P(n):
 C, p = 0, 0
 
 for a in range(-999, 1000):
-    for b in range(-999, 1000):
+    for b in range(-1000, 1001):
         c, n = 0, 0
         while P(n*n + a*n + b):
             c, n = c + 1, n + 1
